@@ -1,0 +1,11 @@
+name = "green37_upper_bounds_fc"
+version = "0.1.0"
+defaultTargets = ["Green37UpperBoundsFC"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "d16e05aded22b8c467a0a27c14b2311f53185006"
+
+[[lean_lib]]
+name = "Green37UpperBoundsFC"
